@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 0.0.1
 
 environment:
-  sdk: ^3.6.1
+  sdk: ^3.10.1
 
 dependencies:
   flutter:
@@ -17,7 +17,7 @@ dependencies:
   sqlite3_flutter_libs: ^0.5.24
   path_provider: ^2.1.4
   path: ^1.9.0
-  intl: ^0.19.0
+  intl: ^0.20.2
   fl_chart: ^0.68.0
   shared_preferences: ^2.3.2
   csv: ^5.0.2
@@ -76,6 +76,9 @@ dependencies:
   table_calendar: ^3.1.0
   local_auth: ^2.3.0
 
+  #多语言生成
+  intl_utils: ^2.8.12
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -108,23 +111,7 @@ flutter:
     - assets/logo2.png
     - assets/icons/
     - assets/images/
-  # 字体已移动到可选依赖，使用系统字体以减少应用体积
-  # fonts:
-  #   - family: Inter
-  #     fonts:
-  #       - asset: assets/fonts/Inter-Regular.ttf
-  #       - asset: assets/fonts/Inter-Medium.ttf
-  #         weight: 500
-  #       - asset: assets/fonts/Inter-SemiBold.ttf
-  #         weight: 600
-  #       - asset: assets/fonts/Inter-Bold.ttf
-  #         weight: 700
-  #   - family: NotoSansSC
-  #     fonts:
-  #       - asset: assets/fonts/NotoSansSC-Regular.ttf
-  #       - asset: assets/fonts/NotoSansSC-Medium.ttf
-  #         weight: 500
-  #       - asset: assets/fonts/NotoSansSC-SemiBold.ttf
-  #         weight: 600
-  #       - asset: assets/fonts/NotoSansSC-Bold.ttf
-  #         weight: 700
+
+flutter_intl:
+  enabled: true
+  class_name: lookupAppLocalizations

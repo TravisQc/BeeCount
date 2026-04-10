@@ -1,9 +1,5 @@
 {
-  "@@locale": "en",
   "appTitle": "Bee Accounting",
-  "@appTitle": {
-    "description": "The application title"
-  },
   "tabHome": "Home",
   "tabInsights": "Insights",
   "tabAssets": "Assets",
@@ -34,13 +30,6 @@
   "voiceRecordingInProgress": "Recording...",
   "voiceRecordingProcessing": "Recognizing...",
   "voiceRecordingDuration": "Duration: {duration}s",
-  "@voiceRecordingDuration": {
-    "placeholders": {
-      "duration": {
-        "type": "int"
-      }
-    }
-  },
   "voiceRecordingSuccess": "Voice billing successful",
   "voiceRecordingNoLedger": "No ledger found",
   "voiceRecordingNoInfo": "No billing information recognized",
@@ -48,37 +37,9 @@
   "voiceRecordingPermissionDeniedTitle": "Microphone Permission Required",
   "voiceRecordingPermissionDeniedMessage": "Voice billing requires microphone permission. Please allow BeeCount to access the microphone in System Settings.",
   "voiceRecordingStartFailed": "Failed to start recording: {error}",
-  "@voiceRecordingStartFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "voiceRecordingFailed": "Recording failed: {error}",
-  "@voiceRecordingFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "voiceRecordingRecognizeFailed": "Recognition failed: {error}",
-  "@voiceRecordingRecognizeFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "voiceRecordingNoInfoDetected": "Unable to extract bill info: {text}",
-  "@voiceRecordingNoInfoDetected": {
-    "placeholders": {
-      "text": {
-        "type": "String"
-      }
-    }
-  },
   "voiceRecordingNoSpeech": "No speech detected",
   "commonPrevious": "Previous",
   "commonFinish": "Finish",
@@ -108,32 +69,11 @@
   "homeAppTitle": "Bee Accounting",
   "homeSearch": "Search",
   "homeYear": "{year}",
-  "@homeYear": {
-    "placeholders": {
-      "year": {
-        "type": "int"
-      }
-    }
-  },
   "homeMonth": "{month}M",
-  "@homeMonth": {
-    "placeholders": {
-      "month": {
-        "type": "String"
-      }
-    }
-  },
   "homeNoRecordsSubtext": "Tap the plus button at the bottom to add a record",
   "homeLastMonthReportSubtitle": "View and share last month's report",
   "homeLastMonthReportView": "View",
   "homeAnnualReportReminder": "Your {year} Annual Report is ready",
-  "@homeAnnualReportReminder": {
-    "placeholders": {
-      "year": {
-        "type": "int"
-      }
-    }
-  },
   "homeAnnualReportView": "View",
   "widgetTodayExpense": "Today's Expense",
   "widgetTodayIncome": "Today's Income",
@@ -186,13 +126,6 @@
   "analyticsNoDataSubtext": "Swipe left/right to switch periods, or tap button to toggle income/expense",
   "analyticsSwipeHint": "Swipe left/right to change period",
   "analyticsSwitchTo": "Switch to {type}",
-  "@analyticsSwitchTo": {
-    "placeholders": {
-      "type": {
-        "type": "String"
-      }
-    }
-  },
   "analyticsTipHeader": "Tip: Top capsule can switch Month/Year/All",
   "analyticsSwipeToSwitch": "Swipe to switch",
   "analyticsAllYears": "All Years",
@@ -229,88 +162,29 @@
   "ledgersCreate": "Create",
   "ledgersActions": "Actions",
   "ledgersRecords": "Records: {count}",
-  "@ledgersRecords": {
-    "placeholders": {
-      "count": {
-        "type": "String"
-      }
-    }
-  },
   "ledgersBalance": "Balance: {balance}",
-  "@ledgersBalance": {
-    "placeholders": {
-      "balance": {
-        "type": "String"
-      }
-    }
-  },
   "ledgerCardDownloadCloud": "Download from Cloud",
   "ledgersLocal": "Local Ledgers",
   "ledgersRemote": "Cloud Ledgers",
   "ledgersEmpty": "No ledgers",
   "ledgersRestoreAll": "Restore All",
   "ledgersSwitched": "Switched to ledger \"{name}\"",
-  "@ledgersSwitched": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "ledgersDownloadTitle": "Download Ledger",
   "ledgersDownloadMessage": "Confirm download ledger \"{name}\" to local?",
-  "@ledgersDownloadMessage": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "ledgersDownloading": "Downloading...",
   "ledgersDownloadSuccess": "Ledger \"{name}\" downloaded successfully",
-  "@ledgersDownloadSuccess": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "ledgersDownload": "Download",
   "ledgersDeleteRemote": "Delete Cloud Ledger",
   "ledgersDeleteRemoteConfirm": "Delete Cloud Ledger",
   "ledgersDeleteRemoteMessage": "Confirm delete cloud ledger \"{name}\"? This action cannot be undone.",
-  "@ledgersDeleteRemoteMessage": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "ledgersDeleting": "Deleting...",
   "ledgersDeleteRemoteSuccess": "Cloud ledger deleted",
   "ledgersCannotDeleteLastOne": "Cannot delete the last ledger",
   "ledgersRestoreAllTitle": "Batch Restore",
   "ledgersRestoreAllMessage": "Confirm restore all cloud ledgers? Total {count}.",
-  "@ledgersRestoreAllMessage": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "ledgersRestoring": "Restoring...",
   "ledgersRestoreComplete": "Restore Complete",
   "ledgersRestoreResult": "Success: {success}, Failed: {failed}",
-  "@ledgersRestoreResult": {
-    "placeholders": {
-      "success": {
-        "type": "int"
-      },
-      "failed": {
-        "type": "int"
-      }
-    }
-  },
   "categoryTitle": "Category Management",
   "categoryNew": "New Category",
   "categoryExpense": "Expense",
@@ -319,13 +193,6 @@
   "categoryDefault": "Default Category",
   "categoryReorderTip": "Long press to drag and reorder categories",
   "categoryLoadFailed": "Load failed: {error}",
-  "@categoryLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "iconPickerTitle": "Select Icon",
   "iconCategoryTransport": "Transport",
   "iconCategoryShopping": "Shopping",
@@ -379,13 +246,6 @@
   "importSkippedNonTransactionTypes": "Skipped {count} non-transaction records (debts, etc.)",
   "importTransactionFailed": "Import failed, all changes have been rolled back: {error}",
   "importFileOpenError": "Unable to open file picker: {error}",
-  "@importFileOpenError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "mineTitle": "Mine",
   "mineReminder": "Reminder Settings",
   "mineImport": "Import Data",
@@ -406,31 +266,10 @@
   "mineAvatarDelete": "Delete Avatar",
   "annualReportTitle": "Annual Report",
   "annualReportSubtitle": "Review your {year} financial journey",
-  "@annualReportSubtitle": {
-    "placeholders": {
-      "year": {
-        "type": "int"
-      }
-    }
-  },
   "annualReportEntrySubtitle": "Create your personalized annual report to share",
   "annualReportNoData": "No data for {year}",
-  "@annualReportNoData": {
-    "placeholders": {
-      "year": {
-        "type": "int"
-      }
-    }
-  },
   "annualReportPage1Title": "Annual Overview",
   "annualReportPage1Subtitle": "Your {year} bookkeeping journey",
-  "@annualReportPage1Subtitle": {
-    "placeholders": {
-      "year": {
-        "type": "int"
-      }
-    }
-  },
   "annualReportTotalDays": "Days Tracked",
   "annualReportTotalRecords": "Total Records",
   "annualReportTotalIncome": "Total Income",
@@ -451,24 +290,10 @@
   "annualReportPage5Subtitle": "Your bookkeeping badges",
   "annualReportAchievementConsistent": "Consistent",
   "annualReportAchievementConsistentDesc": "Tracked for over {days} days straight",
-  "@annualReportAchievementConsistentDesc": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
   "annualReportAchievementSaver": "Saver",
   "annualReportAchievementSaverDesc": "Positive net savings this year",
   "annualReportAchievementDetail": "Detail-Oriented",
   "annualReportAchievementDetailDesc": "Over {count} records tracked",
-  "@annualReportAchievementDetailDesc": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "annualReportShareButton": "Generate Share Poster",
   "annualReportGenerating": "Generating annual report...",
   "annualReportSaveSuccess": "Annual report poster saved",
@@ -490,13 +315,6 @@
   "appPromoTagFree": "Free",
   "appPromoFooterText": "Track every penny, trace every moment",
   "userProfileJourneyYears": "Bookkeeping Pro {years} Years",
-  "@userProfileJourneyYears": {
-    "placeholders": {
-      "years": {
-        "type": "int"
-      }
-    }
-  },
   "userProfileJourneyOneYear": "One Year of Bookkeeping",
   "userProfileJourneyHalfYear": "Six Months Strong",
   "userProfileJourneyThreeMonths": "Three Months In",
@@ -2303,13 +2121,6 @@
   "attachmentStartImport": "Start Import",
   "attachmentPreview": "Preview Attachments",
   "attachmentPreviewSubtitle": "{count} images in total",
-  "@attachmentPreviewSubtitle": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "attachmentPreviewEmpty": "No attachments",
   "attachmentExportPreviewTitle": "Export Preview",
   "attachmentImportPreviewTitle": "Import Preview",
@@ -2367,13 +2178,6 @@
   "aiProviderTapToEdit": "Tap to edit",
   "aiProviderDeleteTitle": "Delete Provider",
   "aiProviderDeleteConfirm": "Delete provider \"{name}\"? Capabilities using this provider will switch to default.",
-  "@aiProviderDeleteConfirm": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "aiProviderDeleted": "Provider deleted",
   "aiProviderEditTitle": "Edit Provider",
   "aiProviderAddTitle": "Add Provider",
@@ -2409,48 +2213,13 @@
   "syncPreviewModified": "Modified",
   "syncPreviewDeleted": "Deleted",
   "syncPreviewAddedCount": "{count} added",
-  "@syncPreviewAddedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "syncPreviewModifiedCount": "{count} modified",
-  "@syncPreviewModifiedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "syncPreviewDeletedCount": "{count} deleted",
-  "@syncPreviewDeletedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "syncPreviewApply": "Apply {count} items",
-  "@syncPreviewApply": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "syncPreviewEmpty": "Cloud data matches local, no sync needed",
   "syncPreviewOldFormat": "Old cloud format, full replace required",
   "syncPreviewOldFormatMessage": "Cloud data does not contain sync IDs. Local data will be cleared and re-imported from cloud.",
   "syncPreviewApplied": "Applied {count} changes",
-  "@syncPreviewApplied": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "cloudSyncGuideTitle": "Cloud Sync Guide",
   "cloudSyncGuideGotIt": "Got it",
   "cloudSyncGuideHowItWorks": "How it works",
@@ -2503,23 +2272,9 @@
   "creditAvailable": "Available",
   "creditCardOwed": "Owed",
   "dayOfMonth": "{day}th of each month",
-  "@dayOfMonth": {
-    "placeholders": {
-      "day": {
-        "type": "int"
-      }
-    }
-  },
   "creditCardReminderTitle": "Payment Reminder",
   "creditCardReminderDesc": "Remind before payment due date",
   "creditCardReminderDaysBefore": "{days} days before",
-  "@creditCardReminderDaysBefore": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
   "creditCardInitialBalanceHint": "Current debt (negative number)",
   "selectDay": "Select Day",
   "accountBankName": "Bank",
@@ -2551,37 +2306,13 @@
   "valuationUpdateValue": "Update Valuation",
   "valuationUpdateDebt": "Update Debt",
   "valuationLastUpdated": "Last updated: {date}",
-  "@valuationLastUpdated": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
   "valuationAccountHint": "Enter current valuation",
   "valuationDebtHint": "Enter current debt amount",
   "accountGroupTradable": "Daily Accounts",
   "accountGroupValuation": "Assets/Liabilities",
   "adjustmentTransaction": "Valuation Adjustment",
   "creditCardBillingInfo": "Bills on {billingDay}th · Due on {paymentDueDay}th",
-  "@creditCardBillingInfo": {
-    "placeholders": {
-      "billingDay": {
-        "type": "int"
-      },
-      "paymentDueDay": {
-        "type": "int"
-      }
-    }
-  },
   "creditCardDaysUntilPayment": "{days} days until payment due",
-  "@creditCardDaysUntilPayment": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
   "creditCardPaymentDueToday": "Payment due today",
   "creditCardQuickRepay": "Record Repayment",
   "budgetManagement": "Budget",
